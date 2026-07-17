@@ -2,7 +2,7 @@ local GameId = game.GameId
 local PlaceId = game.PlaceId
 local supported = false
 
-if GameId == "98484885893001" or GameId == "113500067107879" or GameId == "7416286289" then
+if GameId == "98484885893001" or GameId == "113500067107879" then
     supported = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dyusah211212/Scriptbtw/refs/heads/main/FootBolt"))()
 
