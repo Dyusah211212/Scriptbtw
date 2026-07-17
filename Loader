@@ -1,19 +1,17 @@
-local GameId = game.GameId
 local PlaceId = game.PlaceId
 local supported = false
 
-if GameId == 98484885893001 or PlaceId == 98484885893001 then
+if PlaceId == 98484885893001 or PlaceId == 113500067107879 or PlaceId == 7416286289 then
     supported = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dyusah211212/Scriptbtw/refs/heads/main/FootBolt"))()
 
-elseif GameId == "109883052223750" or PlaceId == 109883052223750 then
+elseif PlaceId == 109883052223750 then
     supported = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dyusah211212/Scriptbtw/refs/heads/main/Locked2"))()
 
 end
 
 if not supported then
-    local LP = game.Players.LocalPlayer
     local msg = Instance.new("ScreenGui", game.CoreGui)
     local frame = Instance.new("Frame", msg)
     frame.Size = UDim2.new(0, 300, 0, 80)
@@ -23,7 +21,7 @@ if not supported then
     
     local text = Instance.new("TextLabel", frame)
     text.Size = UDim2.new(1, 0, 1, 0)
-    text.Text = "Game not supported\nGameId: " .. GameId .. "\nPlaceId: " .. PlaceId
+    text.Text = "Game not supported\nPlaceId: " .. PlaceId
     text.TextColor3 = Color3.fromRGB(255, 100, 100)
     text.Font = Enum.Font.Code
     text.TextSize = 14
