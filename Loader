@@ -4,10 +4,10 @@ local supported = false
 
 if GameId == "98484885893001" then -- Foot Bolt
     supported = true
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dyusah211212/Scriptbtw/refs/heads/main/FootBolt"))()
 
 elseif GameId == "109883052223750" then -- Locked 2
-    supported = true
+    supported = false
     loadstring(game:HttpGet("https://raw.githubusercontent.com"))()
 
 end
