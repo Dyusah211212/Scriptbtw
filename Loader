@@ -1,4 +1,3 @@
--- Universal Game Loader | 26.09.2025
 local GameId = game.GameId
 local PlaceId = game.PlaceId
 local supported = false
